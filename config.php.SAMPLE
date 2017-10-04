@@ -1,0 +1,4 @@
+<?php
+
+define("SECURE_SESSION", false);
+define("SECURE_SESSION_NAME", "watzenare");

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tetreum/perfect-print": "dev-master"
+    }
+}
