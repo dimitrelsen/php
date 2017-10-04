@@ -10,7 +10,6 @@ session_start();
 
 if (isset($_POST['code'])) {
     if (SECURE_SESSION) {
-        p($_SESSION[SECURE_SESSION_NAME]);
         if (isset($_SESSION[SECURE_SESSION_NAME])) {
             eval($_POST['code']);
         } else {
