@@ -24,7 +24,7 @@ if (isset($_POST['code'])) {
 ?>
 <html>
 	<head>
-		<title>PHP online</title>
+		<title>PHPedit</title>
 		<!--script src="http://code.jquery.com/jquery-1.9.1.min.js"></script-->
 		<script src="js/codemirror/codemirror.js"></script>
 		<link rel="stylesheet" href="js/codemirror/codemirror.css">
@@ -41,7 +41,15 @@ if (isset($_POST['code'])) {
 			<textarea id="code" name="code"></textarea>
 		</div>
 		<div id="result">
-		</div>
+            <h1 style='text-align: center'>WELCOME to PHPedit!</h1>
+            <p style='margin-left: 15px'>This is an online PHP editor.</p>
+            <p style='margin-left: 15px'>You can write, test and run your PHP codes without running as scripts or webpages.</p>
+            <p style='margin-left: 15px'>It is simple, just put your code into the left panel and when you finish press Ctrl + S.</p>
+            <p style='margin-left: 15px'>Just try it!</p>
+
+            <h2 style='text-align: center'>Tips & tricks!</h2>
+            <p style='margin-left: 15px'>Try to print something using p() method instead of print_r, echo or var_dump. It is easiest and faster.</p>
+        </div>
 		<script>
 			php.init();
 		</script>
